@@ -1,0 +1,125 @@
+body {
+  background: #8a2387; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f27121,
+    #e94057,
+    #8a2387
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f27121,
+    #e94057,
+    #8a2387
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  padding: 8px;
+  font-size: 16px;
+  margin-left: 40px;
+  margin-bottom: 40px;
+  outline: none;
+  border: 1px solid rgb(191, 186, 186);
+  border-radius: 5px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  width: 700px;
+  height: 60px;
+  margin-top: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.qr-code {
+  margin-top: 200px;
+  justify-content: center;
+  margin-left: -170px;
+  margin-bottom: 30px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: "Times New Roman", Times, serif;
+}
+
+button {
+  width: 200px;
+  height: 50px;
+  border-radius: 30px;
+  font-weight: 600;
+  font-family: "Times New Roman", Times, serif;
+  border: none;
+  color: rgb(15, 15, 16);
+  background-color: rgb(200, 200, 205);
+  border: 1px solid rgb(199, 194, 194);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+button:hover {
+  color: rgb(234, 234, 241);
+  background-color: green;
+  border: 1px solid rgb(176, 176, 181);
+}
+form {
+  width: 800px;
+  height: 420px;
+  background-color: white;
+  margin-left: 90px;
+  border-radius: 20px;
+  padding-top: 20px;
+  margin-top: 140px;
+  margin-left: 360px;
+
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+label {
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+  margin-left: 40px;
+}
+.btn {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.result-container {
+  margin-top: 25px;
+  margin-left: 290px;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 20px;
+}
+
+.reset {
+  width: 200px;
+  height: 50px;
+  border-radius: 30px;
+  font-weight: 600;
+  font-family: "Times New Roman", Times, serif;
+  border: none;
+  color: aliceblue;
+  background-color: red;
+  border: 1px solid grey;
+}
+.reset:hover 
+ {
+  color: rgb(234, 234, 241);
+  background-color: grey;
+  border: 1px solid red;
+}
